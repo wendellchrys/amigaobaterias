@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npm run copy-files",
-    "copy-files": "cp -r public .next/standalone/site-amigao-baterias/ && cp -r .next/static .next/standalone/site-amigao-baterias/.next/",
-    "start": "node .next/standalone/site-amigao-baterias/server.js"
+    "build": "next build",
+    "start": "node server.js"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",
