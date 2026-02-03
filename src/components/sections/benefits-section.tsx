@@ -17,7 +17,7 @@ const benefits = [
   {
     icon: Clock,
     title: "Entrega Rápida",
-    description: "Receba sua bateria em até 2 horas na região metropolitana",
+    description: "Receba sua bateria em até 40min na região metropolitana",
     color: "text-blue-600",
     bgColor: "bg-blue-100",
   },
@@ -39,14 +39,14 @@ const benefits = [
   {
     icon: CreditCard,
     title: "Formas de Pagamento",
-    description: "Parcele em até 12x sem juros ou ganhe desconto no PIX",
+    description: "Parcele em até 10x sem juros ou ganhe desconto no PIX",
     color: "text-purple-600",
     bgColor: "bg-purple-100",
   },
   {
     icon: Truck,
     title: "Frete Grátis",
-    description: "Entrega gratuita para compras acima de R$ 400",
+    description: "Entrega gratuita na região metropolitana",
     color: "text-red-600",
     bgColor: "bg-red-100",
   },

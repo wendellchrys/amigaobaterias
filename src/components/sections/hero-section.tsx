@@ -88,7 +88,7 @@ export function HeroSection() {
                 asChild
               >
                 <Link
-                  href={`tel:+55${siteConfig.whatsapp}`}
+                  href={`tel:+${siteConfig.whatsapp}`}
                   className="flex items-center gap-2"
                 >
                   <Phone className="h-5 w-5" />
